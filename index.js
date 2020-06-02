@@ -1,7 +1,7 @@
 const {Client, MessageEmbed, Collection} = require('discord.js');
 const bot = new Client();
 const prefix = '~'
-const token = 'NzE3MzE1MTEwMjg0MTY1MTgw.XtYhyw.zMpE_k3uJ5hhvFPEe_MOd6IIUxs';
+const token = 'NzE3MzE1MTEwMjg0MTY1MTgw.XtYwCA.9avOs_sxRaoSPr3j8XM1wHuTmBE';
 
 const cheerio = require('cheerio');
 const request = require('request');
@@ -54,7 +54,7 @@ bot.on('message', message => {
             message.channel.send('Namaste ji 🙏')
             break;
         case 'image':
-            image(message)
+            inmage(message)
             break;
         case 'help':
             const embed = new MessageEmbed()
